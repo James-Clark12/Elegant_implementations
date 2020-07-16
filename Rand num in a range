@@ -1,0 +1,4 @@
+    //inclusive min, exclusive max
+    const randNumInRange = (min, max) => {
+        return Math.random() * (max - min) + min;
+    }
